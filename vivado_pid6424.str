@@ -1,0 +1,97 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 6424
+
+Current time: 	10/11/17 3:52:01 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=宋体,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	F:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	丁亚东
+User directory: F:/Verilog/Math_Project/preject
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/丁亚东/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/丁亚东/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	207 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 478 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: F:\Verilog\Math_Project\preject\preject.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/Verilog/Math_Project/preject/preject.xpr 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 51 MB (+51331kb) [00:00:06]
+// [Engine Memory]: 407 MB (+275507kb) [00:00:06]
+// [Engine Memory]: 459 MB (+32474kb) [00:00:06]
+// [GUI Memory]: 57 MB (+3160kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project F:/Verilog/Math_Project/preject/preject.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 33 MB. Current time: 10/11/17 3:52:01 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 483 MB (+1540kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: preject; location: F:/Verilog/Math_Project/preject; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 765.570 ; gain = 185.898 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [GUI Memory]: 60 MB (+84kb) [00:00:12]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 63 MB (+435kb) [00:00:15]
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+// [Engine Memory]: 508 MB (+464kb) [00:00:17]
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Elapsed time: 47 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cp:P)
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // g:JideTabbedPane (JPanel:JComponent, cl:JFrame)
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // g:JideTabbedPane (JPanel:JComponent, cl:JFrame)
+floatFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // ap:DockableFrame (FrameContainer:JideTabbedPane, cl:JFrame)
+dockFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // ap:DockableFrame (FrameContainer:JideTabbedPane, FrameFloatingContainer:ResizableFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("RDIResource.ProgressDialog_BACKGROUND_TASK_RUNNING_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton:JButton (NullPanel:JPanel, cl:JFrame)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 

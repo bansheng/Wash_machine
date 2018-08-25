@@ -1,0 +1,87 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 13260
+
+Current time: 	10/11/17 3:49:21 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=宋体,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	F:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	丁亚东
+User directory: F:/Verilog/Math_Project/preject
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/丁亚东/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/丁亚东/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	196 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 479 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: F:\Verilog\Math_Project\preject\preject.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 29 MB (+28221kb) [00:00:04]
+// [Engine Memory]: 410 MB (+277924kb) [00:00:04]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 34 MB (+3495kb) [00:00:04]
+// [GUI Memory]: 58 MB (+23078kb) [00:00:04]
+// [Engine Memory]: 444 MB (+14192kb) [00:00:04]
+// [Engine Memory]: 470 MB (+4781kb) [00:00:05]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project F:/Verilog/Math_Project/preject/preject.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 61 MB (+508kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: preject; location: F:/Verilog/Math_Project/preject; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 33 MB. Current time: 10/11/17 3:49:23 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 498 MB (+4160kb) [00:00:08]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Elapsed time: 129 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cp:P)
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 

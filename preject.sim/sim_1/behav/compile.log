@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/edge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DetecEdge
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider_M.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_M
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/fuzhi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fuzhi
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/pattern_choose.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pattern_choose
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/xianshi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xianshi
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/FSM_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_main
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/Main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,832 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Oct 16 18:36:09 2017
+# Process ID: 12840
+# Log file: F:/Verilog/Math_Project/preject/vivado.log
+# Journal file: F:/Verilog/Math_Project/preject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Verilog/Math_Project/preject/preject.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 750.035 ; gain = 172.813
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Main_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Main_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/edge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DetecEdge
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider_M.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_M
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/fuzhi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fuzhi
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/pattern_choose.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pattern_choose
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/xianshi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xianshi
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/FSM_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_main
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/Main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 81223f7456fe40ed8848012e7f805683 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Main_tb_behav xil_defaultlib.Main_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fuzhi
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.divider_M
+Compiling module xil_defaultlib.DetecEdge
+Compiling module xil_defaultlib.FSM_main
+Compiling module xil_defaultlib.pattern_choose
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.xianshi
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.Main_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Main_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav/xsim.dir/Main_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1183488384 -regid "" -xml F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav/xsim.dir/Main_tb_behav/webtalk/usage_stat..."
+    (file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav/xsim.dir/Main_tb_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 16 18:37:35 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 753.473 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Main_tb_behav -key {Behavioral:sim_1:Functional:Main_tb} -tclbatch {Main_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source Main_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Main_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 759.109 ; gain = 5.637
+reset_run synth_1
+launch_runs impl_1
+[Mon Oct 16 18:55:54 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 18:55:54 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/Verilog/Math_Project/preject/.Xil/Vivado-12840-DESKTOP-6URJJC5/dcp/Main.xdc]
+Finished Parsing XDC File [F:/Verilog/Math_Project/preject/.Xil/Vivado-12840-DESKTOP-6URJJC5/dcp/Main.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.166 . Memory (MB): peak = 1023.590 ; gain = 0.113
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.166 . Memory (MB): peak = 1023.590 ; gain = 0.113
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1107.891 ; gain = 309.809
+launch_simulation -mode post-synthesis -type functional
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/Verilog/Math_Project/preject/preject.srcs/constrs_1/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [F:/Verilog/Math_Project/preject/preject.srcs/constrs_1/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1289.887 ; gain = 156.172
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'Main_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj Main_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DetecEdge
+INFO: [VRFC 10-311] analyzing module DetecEdge_0
+INFO: [VRFC 10-311] analyzing module DetecEdge_1
+INFO: [VRFC 10-311] analyzing module DetecEdge_3
+INFO: [VRFC 10-311] analyzing module DetecEdge_4
+INFO: [VRFC 10-311] analyzing module DetecEdge_5
+INFO: [VRFC 10-311] analyzing module DetecEdge_6
+INFO: [VRFC 10-311] analyzing module FSM_main
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-311] analyzing module divider_M
+INFO: [VRFC 10-311] analyzing module divider_M_2
+INFO: [VRFC 10-311] analyzing module fuzhi
+INFO: [VRFC 10-311] analyzing module pattern_choose
+INFO: [VRFC 10-311] analyzing module xianshi
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v:6]
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 81223f7456fe40ed8848012e7f805683 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Main_tb_func_synth xil_defaultlib.Main_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.divider_M_2
+Compiling module xil_defaultlib.DetecEdge_3
+Compiling module xil_defaultlib.DetecEdge_4
+Compiling module xil_defaultlib.DetecEdge_5
+Compiling module xil_defaultlib.DetecEdge_6
+Compiling module xil_defaultlib.FSM_main
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.fuzhi
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.DetecEdge
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.divider_M
+Compiling module xil_defaultlib.DetecEdge_0
+Compiling module xil_defaultlib.DetecEdge_1
+Compiling module xil_defaultlib.pattern_choose
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.xianshi
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.Main_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Main_tb_func_synth
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3737669876 -regid "" -xml F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/..."
+    (file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 16 19:00:24 2017...
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1593.336 ; gain = 298.234
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Main_tb_func_synth -key {Post-Synthesis:sim_1:Functional:Main_tb} -tclbatch {Main_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source Main_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Main_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 1605.418 ; gain = 471.703
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 19:11:19 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 19:11:19 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-synthesis -type functional
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'Main_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj Main_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DetecEdge
+INFO: [VRFC 10-311] analyzing module DetecEdge_0
+INFO: [VRFC 10-311] analyzing module DetecEdge_1
+INFO: [VRFC 10-311] analyzing module DetecEdge_3
+INFO: [VRFC 10-311] analyzing module DetecEdge_4
+INFO: [VRFC 10-311] analyzing module DetecEdge_5
+INFO: [VRFC 10-311] analyzing module DetecEdge_6
+INFO: [VRFC 10-311] analyzing module FSM_main
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-311] analyzing module divider_M
+INFO: [VRFC 10-311] analyzing module divider_M_2
+INFO: [VRFC 10-311] analyzing module fuzhi
+INFO: [VRFC 10-311] analyzing module pattern_choose
+INFO: [VRFC 10-311] analyzing module xianshi
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v:6]
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 81223f7456fe40ed8848012e7f805683 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Main_tb_func_synth xil_defaultlib.Main_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.divider_M_2
+Compiling module xil_defaultlib.DetecEdge_3
+Compiling module xil_defaultlib.DetecEdge_4
+Compiling module xil_defaultlib.DetecEdge_5
+Compiling module xil_defaultlib.DetecEdge_6
+Compiling module xil_defaultlib.FSM_main
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.fuzhi
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.DetecEdge
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.divider_M
+Compiling module xil_defaultlib.DetecEdge_0
+Compiling module xil_defaultlib.DetecEdge_1
+Compiling module xil_defaultlib.pattern_choose
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.xianshi
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.Main_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Main_tb_func_synth
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3607269599 -regid "" -xml F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/..."
+    (file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 16 19:14:11 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1641.191 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Main_tb_func_synth -key {Post-Synthesis:sim_1:Functional:Main_tb} -tclbatch {Main_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source Main_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Main_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1642.242 ; gain = 7.793
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 19:56:16 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 19:56:16 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/FSM_main.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/FSM_main.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/Main.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/Main.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/counter.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider_M.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider_M.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/edge.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/edge.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/fuzhi.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/fuzhi.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/pattern_choose.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/pattern_choose.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/xianshi.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/xianshi.v:1]
+[Mon Oct 16 19:57:19 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/FSM_main.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/FSM_main.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/Main.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/Main.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/counter.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider_M.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/divider_M.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/edge.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/edge.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/fuzhi.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/fuzhi.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/pattern_choose.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/pattern_choose.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/xianshi.v" into library work [F:/Verilog/Math_Project/preject/preject.srcs/sources_1/new/xianshi.v:1]
+[Mon Oct 16 19:57:44 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+launch_runs impl_1
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 19:58:24 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-synthesis -type functional
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'Main_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj Main_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DetecEdge
+INFO: [VRFC 10-311] analyzing module DetecEdge_0
+INFO: [VRFC 10-311] analyzing module DetecEdge_1
+INFO: [VRFC 10-311] analyzing module DetecEdge_3
+INFO: [VRFC 10-311] analyzing module DetecEdge_4
+INFO: [VRFC 10-311] analyzing module DetecEdge_5
+INFO: [VRFC 10-311] analyzing module DetecEdge_6
+INFO: [VRFC 10-311] analyzing module FSM_main
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-311] analyzing module divider_M
+INFO: [VRFC 10-311] analyzing module divider_M_2
+INFO: [VRFC 10-311] analyzing module fuzhi
+INFO: [VRFC 10-311] analyzing module pattern_choose
+INFO: [VRFC 10-311] analyzing module xianshi
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v:6]
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 81223f7456fe40ed8848012e7f805683 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Main_tb_func_synth xil_defaultlib.Main_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.divider_M_2
+Compiling module xil_defaultlib.DetecEdge_3
+Compiling module xil_defaultlib.DetecEdge_4
+Compiling module xil_defaultlib.DetecEdge_5
+Compiling module xil_defaultlib.DetecEdge_6
+Compiling module xil_defaultlib.FSM_main
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.fuzhi
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.DetecEdge
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.divider_M
+Compiling module xil_defaultlib.DetecEdge_0
+Compiling module xil_defaultlib.DetecEdge_1
+Compiling module xil_defaultlib.pattern_choose
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.xianshi
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.Main_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Main_tb_func_synth
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Oct 16 20:00:12 2017. For additional details about this file, please refer to the WebTalk help file at F:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 16 20:00:12 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1671.055 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Main_tb_func_synth -key {Post-Synthesis:sim_1:Functional:Main_tb} -tclbatch {Main_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source Main_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Main_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1671.055 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Mon Oct 16 20:02:31 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292746660A
+set_property PROGRAM.FILE {F:/Verilog/Math_Project/preject/preject.runs/impl_1/Main.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {F:/Verilog/Math_Project/preject/preject.runs/impl_1/Main.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Mon Oct 16 20:04:40 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 20:04:43 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 20:04:43 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 20:05:27 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+ERROR: [Labtools 27-3175] Target jsn-Nexys4DDR-210292746660A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210292746660A
+current_design impl_1
+refresh_design
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/Verilog/Math_Project/preject/.Xil/Vivado-12840-DESKTOP-6URJJC5/dcp/Main.xdc]
+Finished Parsing XDC File [F:/Verilog/Math_Project/preject/.Xil/Vivado-12840-DESKTOP-6URJJC5/dcp/Main.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.133 . Memory (MB): peak = 1802.297 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.133 . Memory (MB): peak = 1802.297 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1802.297 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 20:22:17 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 20:22:17 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+current_design synth_1
+refresh_design
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/Verilog/Math_Project/preject/preject.srcs/constrs_1/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [F:/Verilog/Math_Project/preject/preject.srcs/constrs_1/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1807.082 ; gain = 4.785
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {F:/Verilog/Math_Project/preject/preject.runs/impl_1/Main.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 20:26:42 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 20:26:42 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {F:/Verilog/Math_Project/preject/preject.runs/impl_1/Main.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 20:39:58 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 20:39:58 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {F:/Verilog/Math_Project/preject/preject.runs/impl_1/Main.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 20:44:15 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 20:44:15 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {F:/Verilog/Math_Project/preject/preject.runs/impl_1/Main.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 16 20:49:11 2017] Launched synth_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/synth_1/runme.log
+[Mon Oct 16 20:49:11 2017] Launched impl_1...
+Run output will be captured here: F:/Verilog/Math_Project/preject/preject.runs/impl_1/runme.log
+close_hw
+refresh_design
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/Verilog/Math_Project/preject/preject.srcs/constrs_1/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [F:/Verilog/Math_Project/preject/preject.srcs/constrs_1/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1807.082 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1809.477 ; gain = 0.000
+launch_simulation -mode post-synthesis -type functional
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'Main_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj Main_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/Main_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DetecEdge
+INFO: [VRFC 10-311] analyzing module DetecEdge_0
+INFO: [VRFC 10-311] analyzing module DetecEdge_1
+INFO: [VRFC 10-311] analyzing module DetecEdge_3
+INFO: [VRFC 10-311] analyzing module DetecEdge_4
+INFO: [VRFC 10-311] analyzing module DetecEdge_5
+INFO: [VRFC 10-311] analyzing module DetecEdge_6
+INFO: [VRFC 10-311] analyzing module FSM_main
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-311] analyzing module divider_M
+INFO: [VRFC 10-311] analyzing module divider_M_2
+INFO: [VRFC 10-311] analyzing module fuzhi
+INFO: [VRFC 10-311] analyzing module pattern_choose
+INFO: [VRFC 10-311] analyzing module xianshi
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/glbl.v:6]
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 81223f7456fe40ed8848012e7f805683 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Main_tb_func_synth xil_defaultlib.Main_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.divider_M_2
+Compiling module xil_defaultlib.DetecEdge_3
+Compiling module xil_defaultlib.DetecEdge_4
+Compiling module xil_defaultlib.DetecEdge_5
+Compiling module xil_defaultlib.DetecEdge_6
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.FSM_main
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.fuzhi
+Compiling module xil_defaultlib.DetecEdge
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.divider_M
+Compiling module xil_defaultlib.DetecEdge_0
+Compiling module xil_defaultlib.DetecEdge_1
+Compiling module xil_defaultlib.pattern_choose
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.xianshi
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.Main_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Main_tb_func_synth
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func/xsim.dir/Main_tb_func_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Oct 16 20:51:50 2017. For additional details about this file, please refer to the WebTalk help file at F:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 16 20:51:50 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1809.477 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Verilog/Math_Project/preject/preject.sim/sim_1/synth/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Main_tb_func_synth -key {Post-Synthesis:sim_1:Functional:Main_tb} -tclbatch {Main_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source Main_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Main_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1809.477 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1809.477 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1809.477 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 16 20:54:46 2017...

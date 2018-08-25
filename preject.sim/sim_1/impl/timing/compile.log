@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/impl/timing/Main_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DetecEdge
+INFO: [VRFC 10-311] analyzing module DetecEdge_0
+INFO: [VRFC 10-311] analyzing module DetecEdge_1
+INFO: [VRFC 10-311] analyzing module DetecEdge_3
+INFO: [VRFC 10-311] analyzing module DetecEdge_4
+INFO: [VRFC 10-311] analyzing module DetecEdge_5
+INFO: [VRFC 10-311] analyzing module DetecEdge_6
+INFO: [VRFC 10-311] analyzing module FSM_main
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-311] analyzing module divider_M
+INFO: [VRFC 10-311] analyzing module divider_M_2
+INFO: [VRFC 10-311] analyzing module fuzhi
+INFO: [VRFC 10-311] analyzing module pattern_choose
+INFO: [VRFC 10-311] analyzing module xianshi
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.srcs/sim_1/new/Main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog/Math_Project/preject/preject.sim/sim_1/impl/timing/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [F:/Verilog/Math_Project/preject/preject.sim/sim_1/impl/timing/glbl.v:6]
